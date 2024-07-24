@@ -31,7 +31,10 @@ section {
 .d-flex {
     display: flex;
     justify-content: center;
+}
 
+.align-item{
+    align-items: center;
 }
 
 .navbar {
@@ -39,15 +42,11 @@ section {
     padding-top: 50px;
 }
 
-
-
 body {
     background-color: #2F1893;
 }
 
-
-.subscribe {
-
+.subscribe-link{
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     line-height: 28px;
@@ -55,15 +54,15 @@ body {
     margin-bottom: 2px;
 
 }
-
-h4 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    line-height: 36px;
+.features-link{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
 }
 
-
-.btn {
+.send-btn {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -77,7 +76,6 @@ h4 {
     border: none;
     color: white;
     cursor: pointer;
-
 }
 
 .email {
@@ -94,12 +92,9 @@ h4 {
     font-weight: 500;
     line-height: 26px;
     color: #8274BE;
-
-
 }
 
-
-h1 {
+.para{
     max-width: 607px;
     height: 96px;
     font-family: "DM Sans", sans-serif;
@@ -108,18 +103,15 @@ h1 {
     line-height: 32px;
     text-align: center;
     color: #FFFFFF;
-
-
 }
 
-h4 {
+.logo{
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
     font-family: "Poppins", sans-serif;
-
 }
 
 .mt-73 {
@@ -133,13 +125,9 @@ h4 {
     color: #6D5DB3;
     display: flex;
     justify-content: center;
-
-
-
 }
 
-.btn-1 {
-
+.sign-up-btn{
     background-color: #482BE7;
     border: none;
     border-radius: 100px;
@@ -152,16 +140,13 @@ h4 {
     height: 40px;
     margin-top: -3px;
     cursor: pointer;
-
-
-
 }
 
 .nav-links {
     gap: 12px;
 }
 
-.btn-1:hover {
+.sign-up-btn:hover {
     background-color: #25DAC5;
     color: white;
 }
@@ -221,25 +206,20 @@ h4 {
         margin-bottom: 5px;
         background-color: white;
         display: flex;
-
     }
 
     .click:checked~.nav-links {
         right: 0;
-
     }
 
     .email {
         margin-top: 40px;
-
     }
 
-    .btn {
+    .send-btn {
         margin-top: 40px;
-
     }
-
-
-
-
+    .para-1{
+        text-align: center;
+    }
 }
